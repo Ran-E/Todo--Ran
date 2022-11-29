@@ -4,6 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev-server": "live-server src",
+    "dev": "npm run dev-server",
+    "start": "echo \"No start script\" && exit 0",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/Ran-E/Todo--Ran/issues"
   },
-  "homepage": "https://github.com/Ran-E/Todo--Ran#readme"
+  "homepage": "https://github.com/Ran-E/Todo--Ran#readme",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
 }
